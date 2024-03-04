@@ -2,7 +2,7 @@
 
 This Project was created since Mangadex does not have a Mobile APP nor does it have email-based notifications to allow users to track Manga Releases. For me as i was travelling for work quite a bit plus having to manually check reddit subs and also get exposed to spoilers in the process was a literal pia so i decided to create this GitHub Action to Track a certain manga that did not have a offical English Translation at that point of time since scanlation teams used to translate the managa panel by panel painstakingly re-drawing the text boxes etc(offical English Translation uploads are not allowed by mangadex) and upload the scanlation to MangaDex. This action served quite well until we started getting a official English Translation release via the publishers K manga wesbite/app. 
 
-I thought why not open source this code as this might be useful to everyone else out there to track mangas that still do not have official English translations as thousands of Mangas with international following do not have a official English Translation on official release websites. 
+I thought why not open source this code as this might be useful to everyone else out there to track mangas that still do not have official English/Other translations as thousands of Mangas with international following do not have a official English/Other Translation on official release websites thus are scanlated by groups and uploaded to Mangadex. 
 
 ## How to Use this Action 
 1. Fork this Repo to your account.
