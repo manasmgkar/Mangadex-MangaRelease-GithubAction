@@ -15,4 +15,7 @@ https://github.com/EMACC99/mangadex/blob/main/README.md#searching-manga
 5. Run the action and keep a eye on the bill,fine tune to your liking.
 
 ### Helpful Links to Get Those who are new to GitHub Actions started on Setting up actions
-https://docs.github.com/en/actions/quickstart
+https://docs.github.com/en/actions/quickstart 
+
+### Additonal Functionality thats disabled.
+Some code has been commented out if uncommented you will receive the manga chapter in a pdf format directly on your email id,has been commented out because when creating a pdf the manga image quality is lowered and since Mangas are a visual medium image quality being lowered destroys the readability.
