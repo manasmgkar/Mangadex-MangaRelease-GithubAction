@@ -1,0 +1,18 @@
+# Mangadex-MangaRelease-GitHubAction
+
+This Project was created since Mangadex does not have a Mobile APP nor does it have email-based notifications to allow users to track Manga Releases. For me as i was travelling for work quite a bit plus having to manually check reddit subs and also get exposed to spoilers in the process was a literal pia so i decided to create this GitHub Action to Track a certain manga that did not have a offical English Translation at that point of time since scanlation teams used to translate the managa panel by panel painstakingly re-drawing the text boxes etc(offical English Translation uploads are not allowed by mangadex) and upload the scanlation to MangaDex. This action served quite well until we started getting a official English Translation release via the publishers K manga wesbite/app. 
+
+I thought why not open source this code as this might be useful to everyone else out there to track mangas that still do not have official English translations as thousands of Mangas with international following do not have a official English Translation on official release websites. 
+
+## How to Use this Action 
+1. Fork this Repo to your account.
+2. Add the Manga-id from the Mangadex api for your specific manga in the **config.cfg**
+3. Fetch the Manga-id using the manga title using the mangadex api using your favourite api request tool(example postman etc)
+https://github.com/EMACC99/mangadex/blob/main/README.md#searching-manga
+4. Add the Manga-id and the last released chapter in the records.json file's respective fields
+5. Create your secrets in Github's Settings under the Action section as shown in the screenshot below ensure your secret name is exactly in the same format
+![secrets](https://github.com/manasmgkar/Mangadex-MangaRelease-GithubAction/assets/76769697/5df3b062-b994-49f5-8422-229266cae6f2)
+5. Run the action and keep a eye on the bill,fine tune to your liking.
+
+### Helpful Links to Get Those who are new to GitHub Actions started on Setting up actions
+https://docs.github.com/en/actions/quickstart
